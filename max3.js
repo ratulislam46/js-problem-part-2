@@ -13,20 +13,20 @@
 
 
 
-//same task another way 
-// function bigestValue(siam, ratul, asif){
-//     if(siam > ratul && siam > asif){
-//         return siam;
-//     }
-//     else if (ratul > siam && ratul > asif){
-//         return ratul;
-//     }
-//     else{
-//         return asif;
-//     }
-// }
-// const giveValue = bigestValue( 120, 150, 180);
-// console.log('This is Big: ', giveValue)
+//same task another way     
+function bigestValue(siam, ratul, asif){
+    if(siam > ratul && siam > asif){
+        return siam;
+    }
+    else if (ratul > siam && ratul > asif){
+        return ratul;
+    }
+    else{
+        return asif;
+    }
+}
+const giveValue = bigestValue( 120, 150, 180);
+console.log('This is Big: ', giveValue)
 
 
 
@@ -37,11 +37,11 @@
 
 
 //another way -------this is poor way 
-const siam = 10;
-const ratul = 20;
-const sadhin = 30;
-const arefin = 40;
-const sifat = 50;
-const rabbi = 60;
-const max = Math.max(siam, ratul, sadhin, arefin, sifat,rabbi);
-console.log(max)
+// const siam = 10;
+// const ratul = 20;
+// const sadhin = 30;
+// const arefin = 40;
+// const sifat = 50;
+// const rabbi = 60;
+// const max = Math.max(siam, ratul, sadhin, arefin, sifat,rabbi);
+// console.log(max)
